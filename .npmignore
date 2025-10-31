@@ -1,58 +1,10 @@
-.git/
-.github/
-.gitignore
-.gitattributes
-
-node_modules/
-.DS_Store
-.vscode/
-.idea/
-coverage/
-nyc_output/
-.tmp/
-.cache/
-
-build/
-*.log
-
-lib/
-tsconfig.json
+.ccls-cache
+node_modules
+build
+dist
+textfiles
+trie-export.json
+benchmarks
+tests
 eslint.config.mjs
-jest.config.*
-*.spec.*
-*.test.*
-test/
-
-# Keep: dist/ and src/
-
-# Build outputs
-dist/
-build/
-*.node
-
-# Dependencies
-node_modules/
-
-# Logs
-*.log
-npm-debug.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-enable1.txt
+docs

@@ -3,6 +3,15 @@ name: Publish
 on:
   release:
     types: [published]
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why running manually'
+        required: false
+        default: 'manual publish'
 
 jobs:
   npm-publish:
