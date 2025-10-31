@@ -4,7 +4,7 @@
       "target_name": "seshat",
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
-      "sources": [ "src/Seshat.cc", "src/RadixTrie.cc", "src/Anna.cc" ],
+      "sources": [ "src/Seshat.cc", "src/RadixTrie.cc", "src/anna_binding.cc" ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")",
         "<(module_root_dir)"                 
