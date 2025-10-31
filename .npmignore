@@ -1,0 +1,27 @@
+.git/
+.github/
+.gitignore
+.gitattributes
+
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+coverage/
+nyc_output/
+.tmp/
+.cache/
+
+build/
+*.log
+
+lib/
+tsconfig.json
+eslint.config.mjs
+jest.config.*
+*.spec.*
+*.test.*
+test/
+
+# Keep: dist/ and src/
+

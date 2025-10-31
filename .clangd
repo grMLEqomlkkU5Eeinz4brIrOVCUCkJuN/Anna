@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - -I./node_modules/node-addon-api
+    - -I$NODE_INCLUDE_PATH
+    - -DNAPI_VERSION=8
+    - -std=c++17
