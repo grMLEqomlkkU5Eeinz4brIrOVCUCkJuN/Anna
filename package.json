@@ -36,7 +36,7 @@
   "homepage": "https://github.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/Anna#readme",
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.3.0",
+    "@types/node": "^25.1.0",
     "eslint": "^9.33.0",
     "jest": "^30.0.5",
     "node-api-headers": "^1.6.0",
